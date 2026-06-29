@@ -1,0 +1,14 @@
+Mapset = make_mapset();
+I = imread('image1.jpg');
+if size(I,3)>1, I = rgb2gray(I); end
+J = coding('signal;', I, Mapset); 
+figure;  
+subplot(1,2,1); imshow(I);  title('Original');
+subplot(1,2,2); imshow(J);  title('Output');
+
+Mapset = make_mapset();
+I = imread('image1.jpg');
+if size(I,3)>1, I = rgb2gray(I); end
+J = coding('signal;', I, Mapset);
+rec = decoding(J, Mapset, [5 5], -Inf); 
+fprintf('Decoded message: %s\n', rec);
