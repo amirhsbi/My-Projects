@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <main class="card small">
+    <h1>Login</h1>
+    {{if .Error}}
+    <div class="error">{{.Error}}</div>
+    {{end}}
+    <form method="post" action="/login">
+      <label>username</label>
+      <input name="username" autocomplete="off" required>
+      <label>password</label>
+      <input name="password" type="password" required>
+      <button type="submit">Login</button>
+    </form>
+    <p class="hint">Test users: alice/alice123, bob/bob123, admin/admin123</p>
+  </main>
+</body>
+</html>

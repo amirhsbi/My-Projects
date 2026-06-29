@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <main class="card wide">
+    <div class="success">Login successful. Welcome {{.Username}}</div>
+    <p>The image below is loaded from VM3 through the network.</p>
+    <img class="sample" src="{{.FileURL}}" alt="file from VM3">
+    <p class="url">{{.FileURL}}</p>
+    <a href="/">Back to login</a>
+  </main>
+</body>
+</html>

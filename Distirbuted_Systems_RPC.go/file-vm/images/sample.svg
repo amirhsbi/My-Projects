@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360">
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <rect x="40" y="40" width="640" height="280" rx="22" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+  <text x="360" y="120" text-anchor="middle" font-family="Arial" font-size="34" fill="#0f172a">Distributed System HW2</text>
+  <text x="360" y="175" text-anchor="middle" font-family="Arial" font-size="26" fill="#334155">File received from VM3</text>
+  <text x="360" y="230" text-anchor="middle" font-family="Arial" font-size="22" fill="#475569">VM1 Web Server to VM3 File Server</text>
+  <circle cx="165" cy="280" r="24" fill="#38bdf8"/>
+  <circle cx="360" cy="280" r="24" fill="#22c55e"/>
+  <circle cx="555" cy="280" r="24" fill="#f97316"/>
+</svg>

@@ -1,0 +1,1 @@
+This file is stored on VM3 and served by the file-vm service through the network.
