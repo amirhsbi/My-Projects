@@ -1,0 +1,33 @@
+$ docker ps
+CONTAINER ID   IMAGE                        COMMAND                  CREATED         STATUS         PORTS                                         NAMES
+2ca02639421a   hw1-compute-service:latest   "/app/hw1-compute-se…"   7 minutes ago   Up 7 minutes   0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp   hw1-compute-service
+
+$ docker images hw1-compute-service
+IMAGE                        ID             DISK USAGE   CONTENT SIZE   EXTRA
+hw1-compute-service:latest   12688437a39a        125MB         32.4MB   U    
+
+$ docker logs hw1-compute-service
+
+$ curl -i http://127.0.0.1:8080/health
+HTTP/1.1 200 OK
+Content-Type: application/json
+Date: Fri, 08 May 2026 18:51:37 GMT
+Content-Length: 51
+
+{"status":"ok","timestamp":"2026-05-08T18:51:37Z"}
+
+$ curl -i "http://127.0.0.1:8080/compute?op=add&a=5&b=7"
+HTTP/1.1 200 OK
+Content-Type: application/json
+Date: Fri, 08 May 2026 18:51:37 GMT
+Content-Length: 44
+
+{"operation":"add","a":5,"b":7,"result":12}
+
+$ curl -i "http://127.0.0.1:8080/compute?op=pow&a=2&b=8"
+HTTP/1.1 200 OK
+Content-Type: application/json
+Date: Fri, 08 May 2026 18:51:37 GMT
+Content-Length: 45
+
+{"operation":"pow","a":2,"b":8,"result":256}

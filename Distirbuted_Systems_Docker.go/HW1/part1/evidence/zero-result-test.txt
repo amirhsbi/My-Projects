@@ -1,0 +1,2 @@
+$ ./part1/interface SUB 5 5
+{"ok":true,"operation":"SUB","a":5,"b":5,"result":0}

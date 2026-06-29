@@ -1,0 +1,7 @@
+$ curl -i "http://89.38.215.235:18080/compute?op=sub&a=5&b=5"
+HTTP/1.1 200 OK
+Content-Type: application/json
+Date: Fri, 08 May 2026 19:04:39 GMT
+Content-Length: 43
+
+{"operation":"sub","a":5,"b":5,"result":0}

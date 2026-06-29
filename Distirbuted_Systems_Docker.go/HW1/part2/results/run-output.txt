@@ -1,0 +1,45 @@
+NumCPU=20
+JobsPerWorker=500
+workload=cpu gomaxprocs=1 goroutines=1 total_ms=47.65 throughput=10493.08 avg_latency_us=93.79
+workload=cpu gomaxprocs=1 goroutines=2 total_ms=91.74 throughput=10900.72 avg_latency_us=170.22
+workload=cpu gomaxprocs=1 goroutines=4 total_ms=180.22 throughput=11097.71 avg_latency_us=304.82
+workload=cpu gomaxprocs=1 goroutines=8 total_ms=348.82 throughput=11467.29 avg_latency_us=554.68
+workload=cpu gomaxprocs=1 goroutines=16 total_ms=702.98 throughput=11380.05 avg_latency_us=1030.25
+workload=cpu gomaxprocs=1 goroutines=32 total_ms=1399.34 throughput=11434.00 avg_latency_us=2047.53
+workload=cpu gomaxprocs=1 goroutines=64 total_ms=2816.23 throughput=11362.69 avg_latency_us=4137.42
+workload=cpu gomaxprocs=2 goroutines=1 total_ms=45.10 throughput=11085.61 avg_latency_us=89.72
+workload=cpu gomaxprocs=2 goroutines=2 total_ms=45.92 throughput=21774.61 avg_latency_us=90.87
+workload=cpu gomaxprocs=2 goroutines=4 total_ms=92.06 throughput=21724.22 avg_latency_us=163.56
+workload=cpu gomaxprocs=2 goroutines=8 total_ms=194.21 throughput=20596.61 avg_latency_us=303.00
+workload=cpu gomaxprocs=2 goroutines=16 total_ms=431.62 throughput=18535.02 avg_latency_us=654.44
+workload=cpu gomaxprocs=2 goroutines=32 total_ms=774.22 throughput=20666.07 avg_latency_us=1107.43
+workload=cpu gomaxprocs=2 goroutines=64 total_ms=1558.20 throughput=20536.52 avg_latency_us=2217.06
+workload=cpu gomaxprocs=20 goroutines=1 total_ms=47.10 throughput=10614.71 avg_latency_us=93.82
+workload=cpu gomaxprocs=20 goroutines=2 total_ms=49.17 throughput=20335.22 avg_latency_us=96.72
+workload=cpu gomaxprocs=20 goroutines=4 total_ms=50.52 throughput=39583.60 avg_latency_us=98.87
+workload=cpu gomaxprocs=20 goroutines=8 total_ms=57.92 throughput=69060.79 avg_latency_us=109.40
+workload=cpu gomaxprocs=20 goroutines=16 total_ms=84.45 throughput=94730.21 avg_latency_us=155.07
+workload=cpu gomaxprocs=20 goroutines=32 total_ms=142.37 throughput=112382.03 avg_latency_us=198.21
+workload=cpu gomaxprocs=20 goroutines=64 total_ms=273.76 throughput=116890.75 avg_latency_us=170.18
+workload=mixed gomaxprocs=1 goroutines=1 total_ms=11.97 throughput=41768.59 avg_latency_us=23.42
+workload=mixed gomaxprocs=1 goroutines=2 total_ms=22.33 throughput=44773.68 avg_latency_us=22.14
+workload=mixed gomaxprocs=1 goroutines=4 total_ms=42.68 throughput=46863.29 avg_latency_us=36.87
+workload=mixed gomaxprocs=1 goroutines=8 total_ms=82.45 throughput=48512.55 avg_latency_us=20.12
+workload=mixed gomaxprocs=1 goroutines=16 total_ms=172.63 throughput=46341.84 avg_latency_us=41.34
+workload=mixed gomaxprocs=1 goroutines=32 total_ms=326.63 throughput=48985.15 avg_latency_us=319.27
+workload=mixed gomaxprocs=1 goroutines=64 total_ms=659.30 throughput=48536.26 avg_latency_us=617.22
+workload=mixed gomaxprocs=2 goroutines=1 total_ms=10.40 throughput=48062.17 avg_latency_us=20.45
+workload=mixed gomaxprocs=2 goroutines=2 total_ms=11.59 throughput=86290.69 avg_latency_us=21.76
+workload=mixed gomaxprocs=2 goroutines=4 total_ms=23.89 throughput=83730.12 avg_latency_us=34.11
+workload=mixed gomaxprocs=2 goroutines=8 total_ms=46.77 throughput=85528.90 avg_latency_us=61.15
+workload=mixed gomaxprocs=2 goroutines=16 total_ms=90.08 throughput=88807.63 avg_latency_us=114.95
+workload=mixed gomaxprocs=2 goroutines=32 total_ms=179.99 throughput=88892.68 avg_latency_us=218.82
+workload=mixed gomaxprocs=2 goroutines=64 total_ms=363.42 throughput=88052.63 avg_latency_us=449.42
+workload=mixed gomaxprocs=20 goroutines=1 total_ms=10.88 throughput=45943.67 avg_latency_us=21.22
+workload=mixed gomaxprocs=20 goroutines=2 total_ms=11.18 throughput=89409.77 avg_latency_us=21.23
+workload=mixed gomaxprocs=20 goroutines=4 total_ms=14.76 throughput=135538.78 avg_latency_us=26.98
+workload=mixed gomaxprocs=20 goroutines=8 total_ms=30.96 throughput=129204.03 avg_latency_us=47.02
+workload=mixed gomaxprocs=20 goroutines=16 total_ms=48.99 throughput=163290.89 avg_latency_us=79.53
+workload=mixed gomaxprocs=20 goroutines=32 total_ms=93.04 throughput=171959.96 avg_latency_us=148.55
+workload=mixed gomaxprocs=20 goroutines=64 total_ms=187.95 throughput=170260.53 avg_latency_us=309.38
+wrote results to part2/results/results.csv

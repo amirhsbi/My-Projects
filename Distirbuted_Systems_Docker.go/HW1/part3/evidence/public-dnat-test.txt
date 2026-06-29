@@ -1,0 +1,23 @@
+$ curl -i http://89.38.215.235:18080/health
+HTTP/1.1 200 OK
+Content-Type: application/json
+Date: Fri, 08 May 2026 18:53:33 GMT
+Content-Length: 51
+
+{"status":"ok","timestamp":"2026-05-08T18:53:33Z"}
+
+$ curl -i "http://89.38.215.235:18080/compute?op=add&a=5&b=7"
+HTTP/1.1 200 OK
+Content-Type: application/json
+Date: Fri, 08 May 2026 18:53:33 GMT
+Content-Length: 44
+
+{"operation":"add","a":5,"b":7,"result":12}
+
+$ curl -i "http://89.38.215.235:18080/compute?op=div&a=8&b=0"
+HTTP/1.1 400 Bad Request
+Content-Type: application/json
+Date: Fri, 08 May 2026 18:53:34 GMT
+Content-Length: 59
+
+{"operation":"div","a":8,"b":0,"error":"division_by_zero"}

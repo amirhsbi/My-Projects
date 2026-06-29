@@ -1,0 +1,21 @@
+2026/05/08 18:24:19.694172 worker started
+2026/05/08 18:24:19.694385 request pipe: /tmp/hw1_request.pipe
+2026/05/08 18:24:19.694394 response pipe: /tmp/hw1_response.pipe
+2026/05/08 18:24:19.694396 waiting for requests...
+2026/05/08 18:24:26.159920 received request: "DIV 8 0"
+2026/05/08 18:24:26.164747 received request: "ADD 0 5"
+2026/05/08 18:24:26.167847 received request: "SUB 5 0"
+2026/05/08 18:24:26.170891 received request: "ABC 1 2"
+2026/05/08 18:25:33.023543 received request: "ADD 5 7"
+2026/05/08 18:25:33.027856 received request: "SUB 10 3"
+2026/05/08 18:25:33.032324 received request: "MUL 4 6"
+2026/05/08 18:25:33.036284 received request: "DIV 8 2"
+2026/05/08 18:25:33.039456 received request: "MOD 10 3"
+2026/05/08 18:25:33.042215 received request: "POW 2 8"
+2026/05/08 18:25:33.045007 received request: "MAX 12 9"
+2026/05/08 18:25:33.047529 received request: "MIN 12 9"
+2026/05/08 18:25:33.049932 received request: "DIV 8 0"
+2026/05/08 18:25:33.052331 received request: "ABC 1 2"
+2026/05/08 18:25:33.054727 received request: "ADD 1"
+2026/05/08 18:25:33.057195 received request: "ADD x 2"
+2026/05/08 18:25:33.059516 received request: "ADD 1 y"
